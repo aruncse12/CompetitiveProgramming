@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SubStringValidity - Debug ]----------"
-	@cd "SubStringValidity" && "$(MAKE)" -f  "SubStringValidity.mk"
+	@echo "----------Building project:[ SignBoard - Debug ]----------"
+	@cd "SignBoard" && "$(MAKE)" -f  "SignBoard.mk"
 clean:
-	@echo "----------Cleaning project:[ SubStringValidity - Debug ]----------"
-	@cd "SubStringValidity" && "$(MAKE)" -f  "SubStringValidity.mk" clean
+	@echo "----------Cleaning project:[ SignBoard - Debug ]----------"
+	@cd "SignBoard" && "$(MAKE)" -f  "SignBoard.mk" clean

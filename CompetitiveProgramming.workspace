@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CompetitiveProgramming" Database="" Version="10.0.0">
   <Project Name="BitExpansion" Path="BitExpansion/BitExpansion.project" Active="No"/>
-  <Project Name="SubStringValidity" Path="SubStringValidity/SubStringValidity.project" Active="Yes"/>
+  <Project Name="SubStringValidity" Path="SubStringValidity/SubStringValidity.project" Active="No"/>
+  <Project Name="CoderLand" Path="CoderLand/CoderLand.project" Active="No"/>
+  <Project Name="MonkCake" Path="MonkCake/MonkCake.project" Active="No"/>
+  <Project Name="SignBoard" Path="SignBoard/SignBoard.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="BitExpansion" ConfigName="Debug"/>
       <Project Name="SubStringValidity" ConfigName="Debug"/>
+      <Project Name="CoderLand" ConfigName="Debug"/>
+      <Project Name="MonkCake" ConfigName="Debug"/>
+      <Project Name="SignBoard" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="BitExpansion" ConfigName="Release"/>
       <Project Name="SubStringValidity" ConfigName="Release"/>
+      <Project Name="CoderLand" ConfigName="Release"/>
+      <Project Name="MonkCake" ConfigName="Release"/>
+      <Project Name="SignBoard" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
