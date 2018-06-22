@@ -4,7 +4,8 @@
   <Project Name="SubStringValidity" Path="SubStringValidity/SubStringValidity.project" Active="No"/>
   <Project Name="CoderLand" Path="CoderLand/CoderLand.project" Active="No"/>
   <Project Name="MonkCake" Path="MonkCake/MonkCake.project" Active="No"/>
-  <Project Name="SignBoard" Path="SignBoard/SignBoard.project" Active="Yes"/>
+  <Project Name="SignBoard" Path="SignBoard/SignBoard.project" Active="No"/>
+  <Project Name="LCA" Path="LCA/LCA.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="CoderLand" ConfigName="Debug"/>
       <Project Name="MonkCake" ConfigName="Debug"/>
       <Project Name="SignBoard" ConfigName="Debug"/>
+      <Project Name="LCA" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="CoderLand" ConfigName="Release"/>
       <Project Name="MonkCake" ConfigName="Release"/>
       <Project Name="SignBoard" ConfigName="Release"/>
+      <Project Name="LCA" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

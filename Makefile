@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SignBoard - Debug ]----------"
-	@cd "SignBoard" && "$(MAKE)" -f  "SignBoard.mk"
+	@echo "----------Building project:[ LCA - Debug ]----------"
+	@cd "LCA" && "$(MAKE)" -f  "LCA.mk"
 clean:
-	@echo "----------Cleaning project:[ SignBoard - Debug ]----------"
-	@cd "SignBoard" && "$(MAKE)" -f  "SignBoard.mk" clean
+	@echo "----------Cleaning project:[ LCA - Debug ]----------"
+	@cd "LCA" && "$(MAKE)" -f  "LCA.mk" clean
