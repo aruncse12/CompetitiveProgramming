@@ -1,0 +1,62 @@
+#include <iostream>
+#include <queue>
+#include <string>
+using namespace std;
+typedef long long int lli;
+lli numPrime(lli start, lli end)
+{
+    lli i, j, numPrime=0;
+    for(i=start;i<=end;i++)
+    {
+        for(j=2;j<=i-1;j++)
+        {
+            if(i%j==0)
+                break;
+        }
+        if(j==1 || j==i-1)
+            numPrime++;
+    }
+    return numPrime;
+}
+void findJump(lli r1, lli r2, lli N, string str)
+{
+    lli i = 0, numJump = 0;
+    while(i < str.length())
+    {
+        if(i+2 < str.length() && str.at(i+2)=='#')
+        {
+            i+=2;
+            numJump++;
+        }
+        else if(i+1 < str.length() && str.at(i+1)=='#')
+        {
+            i+=1;
+            numJump++;
+        }
+        else
+        {
+            if(i == str.length() - 1)
+            {
+                break;
+            }
+            else
+            {
+                cout<<"No Way"<<endl;
+                return;   
+            }           
+        }
+    }
+    cout<<numJump<<endl;
+}
+int main(int argc, char **argv)
+{
+    lli numTc, r1, r2, N;
+    string str;
+	cin>>numTc;
+    while(numTc--)
+    {
+        cin>>r1>>r2>>N>>str;
+        findJump(r1,r2,N,str);
+    }
+	return 0;
+}
